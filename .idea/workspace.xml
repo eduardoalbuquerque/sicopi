@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fbf0f201-7cc8-468f-93ca-d7c433721df2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="ac328ac2-af49-4bf3-b1a6-ceb31dc778e8" />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1XDSoRIqeIKy4fPw5OOsqscjg8y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\sicopy" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbf0f201-7cc8-468f-93ca-d7c433721df2" name="Default Changelist" comment="" />
+      <created>1580579346144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580579346144</updated>
+      <workItem from="1580579347445" duration="2060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="737" y="498" width="446" height="262" key="ComposerInitDialogKey" timestamp="1580581014438">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="737" y="498" width="446" height="262" key="ComposerInitDialogKey/0.0.1920.1170@0.0.1920.1170" timestamp="1580581014438" />
+    <state x="795" y="509" key="NewPhpFileDialog" timestamp="1580579948024">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="795" y="509" key="NewPhpFileDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1580579948024" />
+  </component>
+</project>

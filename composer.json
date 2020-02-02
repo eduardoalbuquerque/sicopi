@@ -1,0 +1,21 @@
+{
+  "name": "eduardoalbuquerque/sicopy",
+  "description": "Plataforma de gestão pública",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Eduardo Albuquerque",
+      "email": "eduardo.albuquerque@hotmail.com.br"
+    },
+    {
+      "name": "Valfredo Junior",
+      "email": "valfredojunior@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Models\\":"Models/"
+    }
+  }
+}
