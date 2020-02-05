@@ -6,7 +6,7 @@ namespace Core;
 use PDO;
 use PDOException;
 
-require "../Setup/config.php";
+require "Setup/config.php";
 
 class dbConn
 {

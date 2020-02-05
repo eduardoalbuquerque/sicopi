@@ -30,5 +30,9 @@ if (ENVIRONMENT ==='development'){
 //definições do caminho base do sistema
 // path of system
 
-define('PATH','localhost/');
+define("BASE_URL","http://localhost/sicopy/");
+
+//extensao dos arquivos da views
+
+define('EXT','.php');
 

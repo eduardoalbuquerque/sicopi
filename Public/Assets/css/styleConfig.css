@@ -1,0 +1,46 @@
+/*Definir cores do sistema*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    /*fundo padrao | default background*/
+    --color-background:rgb(0,39,94);
+    /*botoes padrao | default button*/
+    --color-success:rgb(102,255,204);
+    --color-warning: rgb(255,204,0);
+    --color-error:rgb(255,0,102);
+
+}
+
+.toast{
+    position: fixed;
+    max-width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    top: 0;
+    margin: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s, top 0.3s ;
+}
+
+.toast--visible{
+    top: 20px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.toast--warning{
+    background-color: var(--color-warning);
+}
+
+.toast--error{
+    background-color: var(--color-error);
+}
+
+.toast--success{
+    background-color: var(--color-success);
+}

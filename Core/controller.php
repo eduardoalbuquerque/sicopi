@@ -4,7 +4,10 @@
 namespace Core;
 
 
-class controller
+class Controller
 {
-
+    protected function loadView(string $view):void
+    {
+        require "Public/Views/{$view}".EXT;
+    }
 }
