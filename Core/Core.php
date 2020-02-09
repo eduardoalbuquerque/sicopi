@@ -28,7 +28,6 @@ class Core
             $this->action = 'index';
         }
         $this->controller = 'Controllers\\'.$this->controller;
-
         $c = new $this->controller();
         call_user_func_array(array($c,$this->action),$this->parameter);
     }

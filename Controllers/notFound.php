@@ -2,7 +2,9 @@
 
 namespace Controllers;
 
-class NotFound
+use Core\Controller;
+
+class NotFound extends Controller
 {
     public function index()
     {

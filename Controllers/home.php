@@ -3,13 +3,18 @@
 
 namespace Controllers;
 
-use Core\Model;
+use Core\Controller;
 
 
-class home extends Model
+class home extends Controller
 {
     public function index()
     {
-        require "Public/Views/home.php";
+        $data = [
+            'title'=> 'Página Home',
+            'nome'=>'eduardo',
+            'base_url'=>'http://localhost/sicopi'
+        ];
+        $this->loadTemplate('home',$data);
     }
 }

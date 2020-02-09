@@ -13,24 +13,30 @@ const SITE = 'https://www.webdevbrasil.com.br';
 // access database configuration
 
 if (ENVIRONMENT ==='development'){
-    define('DBNAME','sicopy');
-    define('DBHOST','localhost');
-    define('DBUSER','root');
-    define('DBPASS','');
-    define('DRIVER','mysql');
+    if(DRIVERDB === 'mysql'){
+        define('DBNAME','sicopi');
+        define('DBHOST','localhost');
+        define('DBUSER','root');
+        define('DBPASS','');
+    }elseif (DRIVERDB ==='pgsql'){
+        define('DBNAME','sicopi');
+        define('DBHOST','sicopi.postgresql.dbaas.com.br');
+        define('DBUSER','sicopi');
+        define('DBPASS','KbH123#@');
+    }
+
 }elseif (ENVIRONMENT==='production'){
     //Configurar com os dados do servidor - set datas server configuration
-    define('DBNAME','sicopy');
+    define('DBNAME','sicopi');
     define('DBHOST','localhost');
     define('DBUSER','root');
     define('DBPASS','');
-    define('DRIVER','mysql');
 }
 
 //definições do caminho base do sistema
 // path of system
 
-define("BASE_URL","http://localhost/sicopy/");
+define("BASE_URL","http://localhost/sicopi/");
 
 //extensao dos arquivos da views
 

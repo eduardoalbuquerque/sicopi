@@ -63,7 +63,7 @@ function getCPF() {
     }
 }
 
-//função to create mesagens runtime in a div tag
+//função to create messages runtime in a div tag
 
 const toast = {
     init() {

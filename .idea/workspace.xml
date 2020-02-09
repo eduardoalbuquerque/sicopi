@@ -1,19 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbf0f201-7cc8-468f-93ca-d7c433721df2" name="Default Changelist" comment="" />
+    <list default="true" id="93c56055-cb89-45d5-bf12-6008151027f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sicopi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sicopy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/notFound.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/notFound.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/dbConn.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/dbConn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Assets/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Assets/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Views/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/environment.php" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/environment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="ac328ac2-af49-4bf3-b1a6-ceb31dc778e8" />
+      <executable />
     </execution>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1XDSoRIqeIKy4fPw5OOsqscjg8y" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1XTc72FqHVgLnz74UExepl2LEwe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -21,12 +46,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="Project Files" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\sicopy" />
+      <recent name="C:\wamp64\www\sicopi\Public\Views" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -34,12 +60,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fbf0f201-7cc8-468f-93ca-d7c433721df2" name="Default Changelist" comment="" />
-      <created>1580579346144</created>
+      <changelist id="93c56055-cb89-45d5-bf12-6008151027f1" name="Default Changelist" comment="" />
+      <created>1581073356147</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580579346144</updated>
-      <workItem from="1580579347445" duration="2060000" />
+      <updated>1581073356147</updated>
+      <workItem from="1581073369556" duration="11643000" />
+      <workItem from="1581093003595" duration="9657000" />
+      <workItem from="1581157087707" duration="1392000" />
+      <workItem from="1581193566979" duration="3888000" />
     </task>
     <servers />
   </component>
@@ -47,13 +76,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="737" y="498" width="446" height="262" key="ComposerInitDialogKey" timestamp="1580581014438">
+    <state x="714" y="91" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581089963858">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="737" y="498" width="446" height="262" key="ComposerInitDialogKey/0.0.1920.1170@0.0.1920.1170" timestamp="1580581014438" />
-    <state x="795" y="509" key="NewPhpFileDialog" timestamp="1580579948024">
+    <state x="714" y="91" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1581089963858" />
+    <state x="789" y="400" key="NewPhpClassDialog" timestamp="1581083979177">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="795" y="509" key="NewPhpFileDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1580579948024" />
+    <state x="789" y="400" key="NewPhpClassDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1581083979177" />
+    <state x="795" y="509" key="NewPhpFileDialog" timestamp="1581112695538">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="795" y="509" key="NewPhpFileDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1581112695538" />
+    <state x="461" y="228" key="SettingsEditor" timestamp="1581083831219">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="461" y="228" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1581083831219" />
+    <state x="655" y="409" key="com.intellij.ide.util.TipDialog" timestamp="1581196601040">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="655" y="409" key="com.intellij.ide.util.TipDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1581196601040" />
+    <state x="616" y="273" key="run.anything.popup" timestamp="1581120372940">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="616" y="273" key="run.anything.popup/0.0.1920.1170@0.0.1920.1170" timestamp="1581120372940" />
+    <state x="552" y="244" key="scopes" timestamp="1581078366745">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="552" y="244" key="scopes/0.0.1920.1170@0.0.1920.1170" timestamp="1581078366745" />
   </component>
 </project>
