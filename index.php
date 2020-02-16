@@ -2,5 +2,5 @@
 
 require "vendor/autoload.php";
 
-$run = new \Core\Core();
+$run = new \Core\core();
 $run->run();

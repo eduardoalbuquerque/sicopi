@@ -23,11 +23,11 @@ class Core
                 }
             }
         }
-        if (!file_exists('Controllers/'.$this->controller.'.php')) {
-            $this->controller = 'Controllers\notFound';
+        if (!file_exists('Controllers/'.$this->controller.'Controller.php')) {
+            $this->controller = 'notFound';
             $this->action = 'index';
         }
-        $this->controller = 'Controllers\\'.$this->controller;
+        $this->controller = 'Controllers\\'.$this->controller.'Controller';
         $c = new $this->controller();
         call_user_func_array(array($c,$this->action),$this->parameter);
     }

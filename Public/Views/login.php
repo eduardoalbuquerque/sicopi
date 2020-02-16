@@ -1,4 +1,3 @@
-
 <form class="login-form" name="login" action="<?php echo $base_url.'/Home' ?>" method="post">
     <p class="greet">Olá, que bom ter você por aqui!</p>
     <input type="text"  id="cpf" maxlength="11" minlength="11" required placeholder="CPF" onkeypress="onlynumber();"
@@ -11,4 +10,4 @@
         <p><a href="#">recuperar senha | recover password</a></p>
     </div>
 </form>
-<script type="text/javascript" src="<?php echo $base_url.'/Public/Assets/js/functions.js'?>"></script>
+

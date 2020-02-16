@@ -3,19 +3,18 @@
 
 namespace Controllers;
 
+use Core\Controller;
 
-use Core\controller;
-use Models\teste;
 
-class Login extends controller
+class homeController extends Controller
 {
     public function index()
     {
         $data = [
-            'title'=> 'Login',
+            'title'=> 'Página Home',
             'nome'=>'eduardo',
             'base_url'=>'http://localhost/sicopi'
         ];
-        $this->loadTemplate('login',$data);
+        $this->loadTemplate('homeController',$data);
     }
 }

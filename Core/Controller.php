@@ -12,7 +12,7 @@ class Controller
         require "Public/Views/{$view}.php";
     }
 
-    protected  function loadTemplate(string $view, array $viewData=array())
+    protected  function loadTemplate(string $view,array $viewData=array())
     {
         extract($viewData);
         require "Public/Views/template.php";
