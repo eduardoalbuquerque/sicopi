@@ -15,40 +15,40 @@
     background-color: white;
     padding: 25px;
     width: 250px;
-    height: 250px;
+    height: 350px;
     display: flex;
     flex-direction: column;
 }
 
-
-.login-form input[type='text']{
+.login-form input{
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 10px;
     margin-top: 20px;
     border-radius: 5px;
     border: 1px solid var(--color-background);
+}
+
+.login-form input[type='text']{
     font-size: 1.2em;
 }
 
-.login-form input[type='password']{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    margin-top: 20px;
-    border-radius: 5px;
-    border: 1px solid var(--color-background);
-}
 
 .login-form input[type='submit']{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 20px;
-    border-radius: 5px;
     border: 0;
     background-color: var(--color-success);
     color: var(--color-background);
 }
+
+.login-form select{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--color-background);
+}
+
 .login-form .greet{
     color: var(--color-background);
     font-size: 1.1em;

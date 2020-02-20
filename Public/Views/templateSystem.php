@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Olá</title>
+    <title>SICOPI</title>
     <link rel="stylesheet" href="<?php echo $base_url."/Public/Assets/css/styleReset.css"?>">
     <link rel="stylesheet" href="<?php echo $base_url."/Public/Assets/css/styleForms.css"?>">
     <link rel="stylesheet" href="<?php echo $base_url."/Public/Assets/css/styleConfig.css"?>">
@@ -12,23 +12,30 @@
 <body class="corpoPreto">
 <header class="header_template">
     <p class="paragrafo_template"><?php echo "Empresa: {$empresa}    |  Plataforma: {$sistema} "?></p>
-
-    <?php
-    if($logado){
-    echo "<button id='sair' class='sair'><p>SAIR</p></button>";
-    }
-    ?>
-
 </header>
 <main class="main_template">
-    <?php $this->loadViewInTemplate($view, $viewData) ?>
-    <div class="loadin">
-        <img id="gif" class="gif gifHidden" src="<?php echo $base_url."/Public/Medias/gifs/wait6.gif"?>">
+    <div class="container">
+        <div class="menu-button">
+            <input type="checkbox" id="check">
+            <label for="check" id="icone"><img class="imagem" src="Public/Assets/ico/icone2.png"> </label>
+        </div>
+        <section class="barra">
+            <nav>
+                <a href="#"><div class="link">menu1</div> </a>
+                <a href="#"><div class="link">menu2</div> </a>
+                <a href="#"><div class="link">menu3</div> </a>
+                <a href="#"><div class="link">menu4</div> </a>
+                <a href="#"><div class="link">menu5</div> </a>
+            </nav>
+        </section>
+        <section class="screen-system">
+                <?php $this->loadViewInTemplate($view, $viewData) ?>
+        </section>
     </div>
 </main>
 
 <footer class="footer_template">
-<p class="paragrafo_template"> <?php echo "LOGADO: [ {$logado} ] | USUÁRIO:[ {$_SESSION['user_name']} ] | 
+    <p class="paragrafo_template"> <?php echo "LOGADO: [ {$logado} ] | USUÁRIO:[ {$_SESSION['user_name']} ] | 
 ÓRGÃO:[ {$_SESSION['company_name']} ] | IP ACESSO [ {$_SERVER['REMOTE_ADDR']} ] " ?></p>
 </footer>
 </body>

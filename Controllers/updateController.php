@@ -13,7 +13,7 @@ class updateController extends Controller
     {
         //CONERSÕES PARA BOLLEAN 0 - INATIVO | 1 - ATIVO
         $execute = new databaseUpdate();
-        $execute->execSql('
+        if($execute->execSql('
     CREATE TABLE IF NOT EXISTS master.company (
     id serial PRIMARY KEY,
     bussineName VARCHAR (60) NOT NULL UNIQUE,
@@ -23,8 +23,12 @@ class updateController extends Controller
     created_at TIMESTAMP WITH TIME ZONE DEFAULT  CURRENT_TIMESTAMP,
     update_at TIMESTAMP 
     
-)');
-        $execute->execSql('CREATE TABLE IF NOT EXISTS 
+)')){
+            echo "<br>master company criada com sucesso";
+        }else{
+            echo "<br>erro ao tentar criar tabela";
+        };
+        if($execute->execSql('CREATE TABLE IF NOT EXISTS 
 master.user(
     cpf int PRIMARY KEY,
     name VARCHAR(60) NOT NULL,
@@ -32,8 +36,12 @@ master.user(
     status BOOLEAN NOT NULL DEFAULT true,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     update_at TIMESTAMP
-)');
-        $execute->execSql('
+)')){
+            echo '<br>master.user criada com sucesso';
+        }else{
+            echo '<br>erro ao tentar criar master.user';
+        };
+        if($execute->execSql('
         CREATE TABLE IF NOT EXISTS master.access(
         id INTEGER NOT NULL,
         cpf INT,
@@ -45,7 +53,11 @@ master.user(
         FOREIGN KEY(cpf) REFERENCES master.user(cpf),
         FOREIGN KEY(idcompany) REFERENCES master.company(id)
         )
-        ');
+        ')){
+            echo '<br>master access criada com sucesso';
+        }else{
+            echo '<br>erro ao tentar criar master.access';
+        };
     }
 
 }

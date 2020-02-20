@@ -6,10 +6,10 @@ namespace Models;
 
 use Core\Model;
 
-class verificaCpf extends Model
+class schema extends Model
 {
     private string $cpf;
-    public function verifyCPFAccess(string $cpf):int
+    public function verifyCPFAccess(string $cpf):array
     {
         $this->cpf = filter_var($cpf,FILTER_SANITIZE_FULL_SPECIAL_CHARS);
         $strSql = "SELECT master.user.name, master.company.database FROM master.access LEFT JOIN master.user 
@@ -19,6 +19,15 @@ WHERE master.access.cpf = :cpf";
         $stm->bindValue(':cpf',$this->cpf,\PDO::ATTR_DEFAULT_STR_PARAM);
         $stm->execute();
         $records = $stm->fetchAll();
-        echo json_encode($records);
+        if (count($records)>0){
+            foreach ($records as $item){
+                $lista[] = $item['database'];
+            }
+            return $lista;
+        }else{
+            return array([0]);
+        }
+
+
     }
 }

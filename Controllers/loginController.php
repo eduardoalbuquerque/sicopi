@@ -1,7 +1,9 @@
 <?php
-
+/*
+ * just call login view
+ * */
 namespace Controllers;
-session_start();
+
 
 use Core\Controller;
 
@@ -13,7 +15,7 @@ class loginController extends Controller
             'title'=> 'Sicopi - Login',
             'empresa'=>'WebDevBrasil',
             'sistema'=> 'Sicopi',
-            'logado'=>'offline',
+            'logado'=>false,
             'client'=>'xxx',
             'user'=>'xxx',
             'base_url'=>'http://localhost/sicopi'
